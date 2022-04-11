@@ -624,7 +624,7 @@ input:focus {
 
 .count-up-sec {
     background-attachment: fixed;
-    background-image: url("../img/slide1.jpg");
+    background-image: url("../img/weare.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1750,5 +1750,13 @@ input:focus {
     margin: 0;
     text-align: center;
 }
+
+
+
+
+/*========================
+FAQ
+==========================*/
+
 
 /* The End */
