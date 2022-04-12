@@ -538,84 +538,39 @@ input:focus {
 ============================*/
 
 
-.service-item .inner:hover .btn.readmore {
-    background: #fff none repeat scroll 0 0;
-    color: #464646
+.services-main-block {
+    margin: 73px 0 7px;
 }
 
-.service-thumb img {
-    width: 100%;
+.service-block {
+    margin-bottom: 62px;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-.service-thumb {
-    position: relative;
-    overflow: hidden;
-}
-
-.service-overlay {
-    position: absolute;
-    top: 100%;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(70, 70, 70, 0.4);
-    text-align: center;
-    transition: all 0.4s ease 0s;
-    visibility: hidden;
-    opacity: 0
-}
-
-.single-service:hover .service-overlay {
-    visibility: visible;
-    transition: all 0.4s ease 0s;
-    opacity: 1;
-    top: 0;
-}
-
-.service-thumb a.btn.readmore {
-    background: #f98f01 none repeat scroll 0 0;
-    border-radius: 50px;
-    color: #fff;
+.service-icon img {
+    display: block;
     margin: 0 auto;
-    padding: 8px 20px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    left: 0;
+    right: 0;
 }
 
-.single-service {
-    margin-bottom: 30px;
-    display: inline-block;
-    width: 100%;
+.service-heading {
+    line-height: 1.33;
+    text-transform: none;
+    margin: 17px 0 10px;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-.service-text h2 {
-    text-transform: capitalize;
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.service-item .inner h2,
-.why-choose h2 {
-    font-size: 18px;
-    color: #fff
-}
-
-.service-item .inner:nth-child(3n+1) {
-    clear: both;
-}
-
-.btn.rdmorebtn {
-    background: #f98f01 none repeat scroll 0 0;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.btn.rdmorebtn:hover {
-    background: #000;
-    transition: all 0.4s ease-in-out 0s;
+.service-block:hover .service-heading {
+    color: #0891FF;
 }
 
 /*
