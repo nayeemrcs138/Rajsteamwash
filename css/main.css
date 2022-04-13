@@ -1706,6 +1706,10 @@ input:focus {
     text-align: center;
 }
 
+.footer-bottom-sec p a {
+    color: #ccc;
+}
+
 
 
 
