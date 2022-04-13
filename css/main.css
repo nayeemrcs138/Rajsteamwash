@@ -540,6 +540,7 @@ input:focus {
 
 .services-main-block {
     margin: 73px 0 7px;
+    padding-bottom: 40px;
 }
 
 .service-block {
@@ -572,6 +573,7 @@ input:focus {
 .service-block:hover .service-heading {
     color: #0891FF;
 }
+
 
 /*
 9.Count Up Section 
@@ -1708,6 +1710,10 @@ input:focus {
 
 .footer-bottom-sec p a {
     color: #ccc;
+}
+
+.footer-bottom-sec p a:hover {
+    color: #f98f01;
 }
 
 
