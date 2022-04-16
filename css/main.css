@@ -242,6 +242,7 @@ input:focus {
 
 .hd-bottom-sec {
     padding: 20px 0;
+    background-color: #000;
 }
 
 .info-intro {
@@ -251,14 +252,14 @@ input:focus {
 }
 
 .info-text h5 {
-    color: #464646;
+    color: white;
     font-size: 16px;
     margin-bottom: 0;
 }
 
 .info-text a,
 .info-text span {
-    color: #666;
+    color: white;
     font-size: 14px;
 }
 
